@@ -1,0 +1,32 @@
+ToDo:
+- Nodejs learn and use
+- Account registration system
+- Learn how to put online.
+
+
+# Framework
+I need to learn:
+- How to host servers online
+- How to make the seats editable by one user.
+- How to make it so that people can pay
+- How to handle requests and stuff.
+
+Steps to develop will be:
+- Develop the basic UI and make everything related to the server side stuff to do with buttons and things like that
+- Make it so that the seats are editable (draggable) for one user (with formats)
+- Make it so that the website works with phones and computers and everything.
+- I will try and do all of this with minimal use of AI, so that I can learn. I will mention in my commits if I do use AI.
+
+Main Page:
+
+Sell Page:
+- They need to be able to register and make accounts (google account api), or phone number or something.
+- After making an account, they will be able to "create event" and will be able to set up description (with location), chairs, ticket price, limit on people.
+- Need to manually be able to add members to their rsvp list
+
+Buy Page:
+- No need to register or make an account
+- Using the special link (which should be kind of like a code), members can rsvp to their desired seats 
+
+
+
