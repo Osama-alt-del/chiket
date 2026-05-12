@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Login</title>
+        <link rel="stylesheet" href="../styles.css">
+    </head>
+    <body>
+    <!-- Nav bar -->
+    <nav class="navbar">
+        <ul class="navbar-list">
+            <li class="navbar-item"><a href="./index.html">Home</a></li>
+            <li class="navbar-item"><a href="./sell.html">Sell Tickets</a></li>
+            <li class="navbar-item"><a href= "./buy.html">Buy Tickets</a></li>
+            
+            <li class="navbar-item"><a href= "./login.html">Login</a></li>
+            <li class="navbar-item"><a href= "./register.html">Register</a></li>
+        </ul>
+    </nav>
+    <!-- Log Into Account -->
+    <div class="div-login">
+        <h1> Login </h1>
+        <hr> 
+        <!-- Enter the Username-->
+        <input type="text" id="login-username">
+        <!-- Enter password (add show for this later) -->
+        <input type="password" id="login-password">
+        <!-- Submit Button (change this to include a listener later) -->
+        <div class="button-div">
+            <button type="button" onclick="showInfo()">Submit</button>
+        </div>
+        <!-- hidden elements that will show if wrong info -->
+
+        <!-- Link to register if no account -->
+        <div class="login-register-div">
+            <p>Don't have an account?: </p>
+            <a href=./register.html>Register</a>
+        </div>
+
+    </div>
+
+        <script src="../scripts/script.js"></script>
+    </body>
+</html>
+
+
