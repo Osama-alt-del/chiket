@@ -103,6 +103,53 @@ h1 {
     color: aqua;
 }
 
+/* Register page */
+.register-div {
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    width: 800px;
+    height: 550px;
+    background-color: #222;
+    color: teal;
+    overflow: scroll;
 
+}
 
+.register-div h1 {
+    text-align: center;
+    font-size: 40px;
+}
+
+.register-div hr {
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 70px;
+}
+.register-div input{
+    display: block;
+    width: 400px;
+    margin: 30px;
+    margin-left: auto;
+    margin-right:auto;
+    font-size: 40px;
+}
+
+.register-div button {
+    display: inline-block;
+    margin-left: 200px;
+}
+
+.register-div p{
+    margin-left: 20px;
+    display: inline-block;
+    font-size: medium;
+}
+
+.register-div a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: aqua;
+}
 
