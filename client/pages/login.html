@@ -25,10 +25,13 @@
         <!-- Enter password (add show for this later) -->
         <input type="password" id="login-password">
         <!-- Submit Button (change this to include a listener later) -->
-        <div class="button-div">
-            <button type="button" onclick="showInfo()">Submit</button>
+        <div id="submit-login" class="login button-div">
+            <button type="button">Submit</button>
         </div>
         <!-- hidden elements that will show if wrong info -->
+        <div class="hidden-error">
+            <p>Username or password is incorrect<p>
+        </div>
 
         <!-- Link to register if no account -->
         <div class="login-register-div">
@@ -38,7 +41,7 @@
 
     </div>
 
-        <script src="../scripts/script.js"></script>
+        <script src="../client.js"></script>
     </body>
 </html>
 

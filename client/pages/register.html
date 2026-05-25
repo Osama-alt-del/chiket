@@ -22,18 +22,22 @@
         <hr>
         <!-- Add labels to these inputs later -->
         <input type="text" id="register-username">
-        <input type="text" id="register-password">
-        <input type="text" id="register-confirm-password">
+        <input type="password" id="register-password">
+        <input type="password" id="register-confirm-password">
         
         <!-- Need to set a listener on this button and then create acc in js -->
-        <button type=button> Create </button>
+        <button id="submit-register" type=button> Create </button>
         <p> Already have an account? <p>
         <a href="./login.html">Login</a>
 
         <!-- Some hidden html here if account already exists or pass wrong -->
+        <div class="hidden-error">
+            <p> That username is already taken <p>
+        </div>
 
     </div>
 
+        <script src=../client.js></script>
     </body>
 </html>
 

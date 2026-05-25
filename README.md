@@ -5,7 +5,5 @@
 - Make the name of the client show after they pay.
 
 
-
-
 # Time limit:
 from 5/3/26 to 7/3/26, so 2 months

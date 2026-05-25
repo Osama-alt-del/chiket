@@ -1,0 +1,22 @@
+{
+  "name": "chiket",
+  "version": "1.0.0",
+  "description": "- Make a ticket application (can be a website) - Make it so that the available seats and the set up is customizable - Make it so that people can select their tickets and their seat, and it let's them pay for their tickets. Make it so that when they select, the seat goes grey to other clients and becomes unselectable. - Make the name of the client show after they pay.",
+  "main": "./client/client.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon ./client/client.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Osama-alt-del/chiket.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Osama-alt-del/chiket/issues"
+  },
+  "homepage": "https://github.com/Osama-alt-del/chiket#readme"
+}
